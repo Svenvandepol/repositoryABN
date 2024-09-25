@@ -14,7 +14,7 @@ import * as d3 from 'd3';
 
 
 const apiPort = process.env.API_PORT || 3000;
-const host = process.env.HOST;
+const host = process.env.HOST || 'http://localhost;
 
 export default {
   data() {
